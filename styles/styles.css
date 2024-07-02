@@ -40,6 +40,9 @@ main{
     outline: none;
     resize: none;
     background: none;
+    overflow: auto;
+    margin-bottom: 30px;
+
 }
 .container_encript_txtarea::placeholder{
     color: darkblue;
@@ -72,6 +75,7 @@ main{
    flex-direction: column;
    justify-content: center;
    gap: 32px;
+   align-items: center;
    /*
    width: 100%;
    height: 100%;
